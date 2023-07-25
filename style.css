@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background: #000000;
+    font-family: sans-serif;
+    color: #c5c5c5;
+
+}
+
+.container{
+    position: relative;
+    width: 320px;
+    margin:100px auto 0 auto ;
+    perspective: 900px;
+}
+
+.carousel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 40s infinite forwards linear ;
+
+}
+
+.image{
+    position: absolute;
+    width: 290px;
+    height: 187px;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+.image span {
+   margin: auto;
+   font-size: 1em;
+
+    
+   
+}
+
+@keyframes rotate360{
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+
+.image:nth-child(1) {
+    background-image: url(https://img.freepik.com/fotos-gratis/programador-ocupado-digitando-e-mails-em-ia-geradora-de-laptop-iluminado_188544-32077.jpg?w=740&t=st=1690317405~exp=1690318005~hmac=9f6845c0337ba21450616b3e64ceff21a8b5ce3492a6be8bae1c34b2914f507b);
+    transform:rotateY(0deg) translateZ(430px) ;
+}
+
+.image:nth-child(2) {
+    background-image: url(https://img.freepik.com/fotos-gratis/espaco-de-escritorio-moderno-iluminado-por-um-monitor-de-computador-brilhante-gerado-por-ia_188544-22508.jpg?w=740&t=st=1690317433~exp=1690318033~hmac=7c1685d50ad45c7c7f09424c866f69420f4a16581d4424d369050c7e8b76cba8);
+    transform:rotateY(40deg) translateZ(430px) ;
+}
+
+.image:nth-child(3) {
+    background-image: url(https://img.freepik.com/fotos-gratis/jovem-engenheiro-adulto-segurando-chip-de-computador-soldado-gerado-por-ia_188544-34117.jpg?w=740&t=st=1690317451~exp=1690318051~hmac=2cec9061eadf10b42ee52e24431f52800c442efea22bd693547bc8bcd163de12);
+    transform:rotateY(80deg) translateZ(430px) ;
+}
+
+.image:nth-child(4) {
+    background-image: url(https://img.freepik.com/fotos-gratis/equipamentos-de-informatica-modernos-trabalhando-em-escritorio-escuro-gerado-por-ia_188544-22081.jpg?w=740&t=st=1690317483~exp=1690318083~hmac=3453173cce253339ca9978bb307ad577864c8e028ab27615b60469368ab3b998);
+    transform:rotateY(120deg) translateZ(430px) ;
+}
+
+.image:nth-child(5) {
+    background-image: url(https://img.freepik.com/fotos-gratis/empresario-afro-americano-usando-computador-com-experiencia-gerada-por-ia_188544-25405.jpg?w=740&t=st=1690317522~exp=1690318122~hmac=94bea3a48eb894f3b75d2f2aa89961777948f7ac2ea92c10fc56a5328151dfc8);
+    transform:rotateY(160deg) translateZ(430px) ;
+}
+
+.image:nth-child(6) {
+    background-image: url(https://img.freepik.com/fotos-gratis/complexidade-brilhante-de-chip-de-computador-da-industria-eletronica-gerada-por-ia_188544-36452.jpg?w=740&t=st=1690317545~exp=1690318145~hmac=7071a385604f37930e34484d341d55994c51582bbd12b9151c750a5938c4d232);
+    transform:rotateY(200deg) translateZ(430px) ;
+}
+
+.image:nth-child(7) {
+    background-image: url(https://img.freepik.com/fotos-gratis/jovem-empresario-adulto-sentado-na-mesa-digitando-gerado-por-ia_188544-26243.jpg?w=740&t=st=1690317583~exp=1690318183~hmac=df0a965aa94cea581538e45d1bb213b5b6f5ceb9da85edc51284039a39b618e1);
+    transform:rotateY(240deg) translateZ(430px) ;
+}
+
+.image:nth-child(8) {
+    background-image: url(https://img.freepik.com/fotos-gratis/simbolo-de-rede-de-computador-abstrato-brilhante-ilumina-a-noite-escura-gerada-por-ia_188544-30304.jpg?w=740&t=st=1690317601~exp=1690318201~hmac=186fe060f877135b88d45cc01a433377ace61621ea639f80d3cc712ce5388d17);
+    transform:rotateY(280deg) translateZ(430px) ;
+}
+
+.image:nth-child(9) {
+    background-image: url(https://img.freepik.com/fotos-gratis/configuracao-de-jogo-legal-com-luzes-de-neon-ainda-vida_23-2149829150.jpg?w=740&t=st=1690317648~exp=1690318248~hmac=f90a23dcd0c9d203049ea32ec70fbbffa21cd01253a171c95f4ccd5ebba8930d);
+    transform:rotateY(320deg) translateZ(430px) ;
+}
+
